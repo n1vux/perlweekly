@@ -1,0 +1,270 @@
+{
+   "chapters" : [
+      {
+         "entries" : [
+            {
+               "author" : "ron_savage",
+               "text" : "",
+               "title" : "ANNOUNCE: Perl.Wiki V 1.45 etc",
+               "ts" : "2026.04.03",
+               "url" : "https://blogs.perl.org/users/ron_savage/2026/05/announce-perlwiki-v-145-etc.html"
+            },
+            {
+               "author" : "",
+               "text" : "Steven Lembark is presenting: Teaching AI New Tricks: Perly MCP's for Claude.",
+               "title" : "TPRC Announces Post Conference Class",
+               "ts" : "2026.04.01",
+               "url" : "https://news.perlfoundation.org/post/tprc-post-conference-class"
+            },
+            {
+               "author" : "herbert_breunung",
+               "text" : "I was just showing the participants of the 'Testing in Perl' course how to write and test a Test::* module. It is nice to see that about the same time Lichtkind wrote an article about the same topic.",
+               "title" : "Who tests the tester? Me !!!",
+               "ts" : "2026.04.24",
+               "url" : "https://blogs.perl.org/users/lichtkind/2026/04/who-tests-the-tester-me.html"
+            },
+            {
+               "author" : "doug_bell",
+               "text" : "A very interesting and useful use of AI.",
+               "title" : "Reading CPAN Testers Reports Using AI Agents",
+               "ts" : "2026.04.29",
+               "url" : "https://blogs.perl.org/users/preaction/2026/04/reading-cpan-testers-reports-using-ai-agents.html"
+            }
+         ],
+         "title" : "Articles"
+      },
+      {
+         "entries" : [
+            {
+               "author" : "",
+               "text" : "",
+               "title" : "sending matrix messages",
+               "ts" : "2026.04.01",
+               "url" : "https://www.reddit.com/r/perl/comments/1t0yrko/sending_matrix_messages/"
+            },
+            {
+               "author" : "",
+               "text" : "",
+               "title" : "Module naming vs CPAN conventions",
+               "ts" : "2026.04.01",
+               "url" : "https://www.reddit.com/r/perl/comments/1t0lpjf/module_naming_vs_cpan_conventions/"
+            },
+            {
+               "author" : "",
+               "text" : "Some Perl modules need a dev package to be installed using 'apt'.",
+               "title" : "Perl in Ubuntu 26-04 LTS (vs 24-04 LTS) ",
+               "ts" : "2026.04.30",
+               "url" : "https://www.reddit.com/r/perl/comments/1sz3521/perl_in_ubuntu_2604_lts_vs_2404_lts/"
+            }
+         ],
+         "title" : "Discussion"
+      },
+      {
+         "entries" : [
+            {
+               "author" : "mohammad_anwar",
+               "tags" : [],
+               "text" : "Welcome to a new week with a couple of fun tasks \"Rearrange Spaces\" and \"Largest Substring\". If you are new to the weekly challenge then why not join us and have fun every week. For more information, please read the <a href=\"https://theweeklychallenge.org/faq\">FAQ</a>.",
+               "title" : "The Weekly Challenge - 372",
+               "ts" : "2026.05.04",
+               "url" : "https://theweeklychallenge.org/blog/perl-weekly-challenge-372"
+            },
+            {
+               "author" : "mohammad_anwar",
+               "tags" : [],
+               "text" : "Enjoy a quick recap of last week's contributions by Team PWC dealing with the \"Missing Letter\" and \"Subset Equilibrium\" tasks in Perl and Raku. You will find plenty of solutions to keep you busy.",
+               "title" : "RECAP - The Weekly Challenge - 371",
+               "ts" : "2026.05.04",
+               "url" : "https://theweeklychallenge.org/blog/recap-challenge-371"
+            },
+            {
+               "author" : "abigail",
+               "tags" : [],
+               "text" : "Abigail gives us an efficient solution, O(n), to the missing letter problem by determining the difference between the sum of all letters in a full range of letters and the sum of the letters in the given array. This eliminates unnecessary loops, which is a big advantage over an iterative search.",
+               "title" : "Perl Weekly Challenge 371: Missing Letter",
+               "ts" : "2026.05.03",
+               "url" : "https://abigail.github.io/HTML/Perl-Weekly-Challenge/week-371-1.html"
+            },
+            {
+               "author" : "abigail",
+               "tags" : [],
+               "text" : "This solution is a well-organised that defines the NP-complete status of this problem and also implements an efficient bitmasking solution in numerous programming languages (e.g., Perl, Python, AWK, C, etc.) and serves as an excellent reference for other programmers to learn about and use for comparison purposes.",
+               "title" : "Perl Weekly Challenge 371: Subset Equilibrium",
+               "ts" : "2026.05.03",
+               "url" : "https://abigail.github.io/HTML/Perl-Weekly-Challenge/week-371-2.html"
+            },
+            {
+               "author" : "arne_sommer",
+               "tags" : [],
+               "text" : "The Raku Solution implements this approach using combinations to easily create subsets in an idiomatic and very readable way. It also provides an elegant way of compensating for zero-based indices when calculating the sum of the positions in each subset by the calculated subsets.",
+               "title" : "Missing Equilibrium",
+               "ts" : "2026.04.30",
+               "url" : "https://raku-musings.com/missing-equilibrium.html"
+            },
+            {
+               "author" : "bob_lied",
+               "tags" : [],
+               "text" : "Bob addressed the exponential number of complex solutions from the outset and provided a practical implementation based on Algorithm::Combinatorics. The use of a positional-based iterator with zero-index compensation allowed him to effectively handle the off-by-one requirement. In addition to that, Bob supplied practical testing strategies using the Test2::Tools::Compare package.",
+               "title" : "Subset Equilibrium (Just nod if you can hear me)",
+               "ts" : "2026.04.28",
+               "url" : "https://dev.to/boblied/pwc-371-subset-equilibrium-just-nod-if-you-can-hear-me-14im"
+            },
+            {
+               "author" : "jaldhar_vyas",
+               "tags" : [],
+               "text" : "This solution gives a clean, efficient implementation that fulfills both the requirement of a proper subset and utilising 1-based indexing by adding + @combo.elems to the index sum. By making use of combinations from Algorithm::Combinatorics in Perl (and using built-in combinations in Raku), only the necessary subset sizes are generated; the output formatting handles both the non-empty and empty result cases in a very clean manner via a clear ternary expression.",
+               "title" : "Perl Weekly Challenge: Week 371",
+               "ts" : "2026.05.04",
+               "url" : "https://www.braincells.com/perl/2026/05/perl_weekly_challenge_week_371.html"
+            },
+            {
+               "author" : "jorg_sommrey",
+               "tags" : [],
+               "text" : "This new solution offers an evaluation of the subset equilibrium problem that is a new and interesting technical perspective and acknowledges the shared views of the two demonstrated examples, while not overlooking those cases where the two may have disagreement along the edges of each set of criteria. The Perl code produced using Math::Prime::Util::forcomb and List::Gather is exceptionally simple but has an artistic style as well.",
+               "title" : "Missing Equilibria",
+               "ts" : "2026.05.01",
+               "url" : "https://github.sommrey.de/the-bears-den/2026/05/01/ch-371.html"
+            },
+            {
+               "author" : "luis_mochan",
+               "tags" : [],
+               "text" : "The post describes a simple yet effective way to generate all proper subsets of a set. It uses the subset function of the Algorithm::Combinatorics module to create all proper subsets, and then filters them based on a very concise expression written as a single line. The script contains both a command-line version for easy use and a complete version that includes error handling and has been thoroughly tested.",
+               "title" : "Perl Weekly Challenge 371",
+               "ts" : "2026.04.27",
+               "url" : "https://wlmb.github.io/2026/04/27/PWC371/"
+            },
+            {
+               "author" : "matthias_muth",
+               "tags" : [],
+               "text" : "By mathematically restructuring the main condition in the problem, i.e. equality of the total values for elements and their corresponding indices. Additionally, utilising the combination iterators from Algorithm::Combinatorics with subset sizes of 2 through n-1 provides a memory efficient approach to solving this exponential complexity problem while utilizing an optimally prepared array of pre-computed offsets, or at least the offsets for an individual index, gives evidence of thoughtful programming.",
+               "title" : "The Missing Equilibrium",
+               "ts" : "2026.05.04",
+               "url" : "https://github.com/MatthiasMuth/perlweeklychallenge-club/tree/muthm-371/challenge-371/matthias-muth#readme"
+            },
+            {
+               "author" : "packy_anderson",
+               "tags" : [],
+               "text" : "The solution has a nice, clean, multi-language implementation (Raku, Perl, Python, Elixir) and uses indexed pairs of values to keep track of the relationship between the two elements and the index position of the two elements, thus having no off-by-one errors. The solution meets the \"proper subset\" constraints by filtering out empty sets, singletons, and the full set as well as providing lots of detail in verbose output to help educate the user by giving exact values and sums of values for each match.",
+               "title" : "My subset is-a missing a letter…",
+               "ts" : "2026.04.",
+               "url" : "https://packy.dardan.com/b/of"
+            },
+            {
+               "author" : "peter_campbell_smith",
+               "tags" : [],
+               "text" : "By using established neighboring letter pairs, the algorithm determines the steps $a and $b in an efficient manner by deducing which are the next alternately patterned letter combinations in relation to each of the five positions for question marks. The entire algorithm utilises a single conditional expression to account for all five possible question mark positions. Additionally, the use of the modulus operator and the mapping of the patterning logic from the analysis to the assignment of steps makes this implementation both very efficient and very easy to read.",
+               "title" : "Solve the question and balance the subset",
+               "ts" : "2026.04.27",
+               "url" : "http://ccgi.campbellsmiths.force9.co.uk/challenge/371"
+            },
+            {
+               "author" : "reinier_maliepaard",
+               "tags" : [],
+               "text" : "This solution requires formalization of the detection of repeating patterns through a comprehensive and well-documented approach by treating them as a repeating two-stage model (i.e., d1 = d3 and d2 = d4). Special consideration is given to both constant and alternating sequences. The use of defined-or (i.e., //=) to unify step values, along with the straightforward relationship between each possible question mark position and its simple arithmetic reconstruction, contributes to creating a code that is highly reliable and easy to follow. Additionally, the thorough input validation provided demonstrates significant consideration for actually implementing in a real world scenario.",
+               "title" : "The Weekly Challenge - 371: Missing Value",
+               "ts" : "2026.05.02",
+               "url" : "https://reiniermaliepaard.nl/pwc/index.php?id=pwc371-1"
+            },
+            {
+               "author" : "reinier_maliepaard",
+               "tags" : [],
+               "text" : "This document includes an excellent comparison of two CPAN modules (Algorithm::Combinatorics and Data::PowerSet) that correctly identifies the combinatorically generated subsets by size (2 to n) are more efficient than generating the power set and filtering out the subsets to produce the same result for this specific task. The code base is very clean and well-structured; it also does a great job of utilising list slicing (@nums[@$subset]) and map to convert from 0-based to 1-based position, while making use of the helper function print_result to ensure that all output for all test cases is consistent and easy to read.",
+               "title" : "The Weekly Challenge - 371: Subset Equilibrium",
+               "ts" : "2026.05.03",
+               "url" : "https://reiniermaliepaard.nl/pwc/index.php?id=pwc371-2"
+            },
+            {
+               "author" : "robbie_hatley",
+               "tags" : [],
+               "text" : "This document offers an innovative and realistic perspective on the subset equilibrium issue by acknowledging there is no \"smart\" optimisation to the subset equilibrium solution and then using a simple combination-based search on the two to n-1 sizes. The solution was implemented correctly with a summation on 1-indexed values for each of those combinations.",
+               "title" : "The Weekly Challenge #371",
+               "ts" : "2026.05.02",
+               "url" : "https://hatley-software.blogspot.com/2026/05/robbie-hatleys-solutions-in-perl-for.html"
+            },
+            {
+               "author" : "roger_bell_west",
+               "tags" : [],
+               "text" : "Roger demonstrates a very clever way of optimizing the solution through the precomputation of one list of differences so that only the check for the sum of the selected differences equals zero must occur, which substantially reduces the amount of computing needed within the combinatorial loops. Roger does a great job of providing a perspective of how to write this in many programming languages (Raku, Kotlin, Crystal, etc.) and provides many practical examples (like sorting the list to create a consistent order for output), thereby making this solution efficient and easily transferable across many different programming languages.",
+               "title" : "Missing Equilibrium",
+               "ts" : "2026.05.03",
+               "url" : "https://blog.firedrake.org/archive/2026/05/The_Weekly_Challenge_371__Missing_Equilibrium.html"
+            },
+            {
+               "author" : "simon_green",
+               "tags" : [],
+               "text" : "Using bit manipulation, this solution works well to create all combinations of subsets by iterating through all integers from 1 to 2^n-2, thus avoiding the empty and full subsets. The inner loop adds pos+1 because the indices in a array have a base index of 1, while the implementation does not require any third-party modules, making it portable and easy to use for individuals who are already comfortable using bit mask manipulation.",
+               "title" : "Question the bits",
+               "ts" : "2026.05.03",
+               "url" : "https://dev.to/simongreennet/weekly-challenge-question-the-bits-4lnd"
+            }
+         ],
+         "header" : "<a href=\"https://theweeklychallenge.org\">The Weekly Challenge</a> by <a href=\"https://manwar.org\">Mohammad Sajid Anwar</a> will help you step out of your comfort-zone. You can even win prize money of $50 by participating in the weekly challenge. We pick one champion at the end of the month from among all of the contributors during the month, thanks to the sponsor Marc Perry.",
+         "title" : "The Weekly Challenge"
+      },
+      {
+         "entries" : [
+            {
+               "author" : "miguel_prz",
+               "text" : "<a href=\"https://niceperl.blogspot.com/2026/05/dxcviii-17-great-cpan-modules-released.html\">Great CPAN modules released last week</a>.",
+               "title" : "NICEPERL's lists",
+               "ts" : "2026.05.02",
+               "url" : "http://niceperl.blogspot.com/"
+            }
+         ],
+         "title" : "Weekly collections"
+      },
+      {
+         "entries" : [
+            {
+               "author" : "philippe_bruhat",
+               "text" : "That's how it started",
+               "title" : "Welcome to the Perl Toolchain Summit 2026!",
+               "ts" : "2026.04.29",
+               "url" : "https://blogs.perl.org/users/book/2026/04/welcome-to-the-perl-toolchain-summit-2026.html"
+            },
+            {
+               "author" : "thomas_klausner",
+               "text" : "A little review by the local orga.",
+               "title" : "Perl Toolchain Summit in Vienna",
+               "ts" : "2026.04.30",
+               "url" : "https://domm.plix.at/perl/2026_04_perl_toolchain_summit.html"
+            }
+         ],
+         "title" : "Event reports"
+      },
+      {
+         "entries" : [
+            {
+               "begin" : "2026-05-07T18:00:00+03:00",
+               "text" : "May 7, 2026",
+               "title" : "Exploring Perl Modules",
+               "url" : "https://luma.com/perl-maven"
+            },
+            {
+               "begin" : "2026-05-12T19:00:00-04:00",
+               "text" : "May 12, 2026",
+               "title" : "Boston Perl Mongers virtual monthly",
+               "url" : "https://boston.pm.org/"
+            },
+            {
+               "begin" : "2026-06-26",
+               "text" : "June 26-29, 2026, Greenville, SC, USA",
+               "title" : "The Perl and Raku Conference 2026",
+               "url" : "https://tprc.us/tprc-2026-gsp/"
+            }
+         ],
+         "title" : "Events"
+      }
+   ],
+   "date" : "2026-05-04",
+   "editor" : "gabor_szabo",
+   "footer" : [],
+   "header" : [
+      "Hi there,",
+      "I put the 'Testing in Perl' course on hold for now. Instead of that we are going to explore the use of some of the mocking libraries we saw during the course. In the next session we'll pick one of the Perl modules used for mocking and we'll look for modules that use it. We'll try to understand how it is being used and we'll try to contribute something to at least one of the modules.",
+      "For background you can check the <a href=\"https://osdc.code-maven.com/perl\">OSDC Perl</a> page where we have a listing of modules for 'Code reading'.",
+      "You can also watch the recording of the <a href=\"https://academy.code-maven.com/c/perl-testing-2026\">Testing in Perl course</a>. (Registration required but these videos are currently free of charge.)",
+      "Enjoy your week!"
+   ],
+   "subject" : "Exploring Perl Modules"
+}
